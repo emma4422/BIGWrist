@@ -319,7 +319,7 @@ header {
         font-size: 19px;
     }
     .firstfoot {
-        width: 190px;
+        width: 250px;
     }
     .firstfoot h1 {
         font-size: 25px;
@@ -327,8 +327,7 @@ header {
     .pfull {
         font-size: 12px;
     }
-    .footinput {
-        width: 250px;
+    .firstfoot form {
         margin-left: 70px;
     }
     .joinus {
@@ -336,7 +335,7 @@ header {
     }
     .topfoot {
         display: block;
-        margin-left: 30px;
+        margin-left: 50px;
     }
     .topfoot h2 {
         font-size: 18px;
@@ -344,7 +343,7 @@ header {
         margin-bottom: 8px;
     }
     .topfoot li {
-           margin-bottom: 7px;
+        margin-bottom: 7px;
     }
     .topfoot a {
         font-size: 11px;
@@ -402,10 +401,49 @@ header {
         padding-top: 30px;
     }
     .firstfoot {
-        width: 190px;
+        width: 230px;
     }
     .firstfoot h1 {
-        font-size: 25px;
+        font-size: 15px;
+    }
+    .pfull {
+        font-size: 12px;
+        width: 230px;
+        line-height: 18px;
+    }
+    .firstfoot form {
+        width: 200px;
+    }
+    .footinput {
+      font-size: 13px;
+    }
+    .joinus {
+        width: 70px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .topfoot {
+        display: block;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 780px) {
+    .topfoot h2 {
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+    .topfoot li {
+           margin-bottom: 5px;
+    }
+    .topfoot a {
+        font-size: 9px;
+    }
+    .firstfoot {
+        margin-right: -90px;
+    }
+    .firstfoot h1 {
+        font-size: 33px;
     }
     .pfull {
         font-size: 12px;
@@ -413,16 +451,13 @@ header {
         line-height: 18px;
     }
     .footinput {
-        width: 250px;
-        margin-left: 70px;
+        width: 245px;
+        margin-left: -79px;
     }
     .joinus {
-        width: 80px;
+        width: 70px;
         height: 35px;
-    }
-    .topfoot {
-        display: block;
-        margin-left: 15px;
+        margin-left: -70px;
     }
 }
 
@@ -1077,11 +1112,12 @@ header {
         overflow-x: hidden;
     }
     .introtext h1 {
-        font-size: 23px;
+        font-size: 22px;
+        margin-left: 29px;
     }
     .introtext h2 {
         font-size: 16px;
-        margin-right: 10px;
+        margin-right: 15px;
     }
     .move p {
         font-size: 20px;
@@ -1148,6 +1184,7 @@ header {
 
 
 
+  
 
 
 
@@ -1382,6 +1419,20 @@ header {
 }
 .inpicss img {
     object-fit: fill;
+}
+
+
+@media (max-width: 850px) {
+}
+@media (max-width: 820px) {
+}
+@media (max-width: 450px) {
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 360px) {
+}
+@media (max-width: 325px) {
 }
 
 
@@ -1799,6 +1850,210 @@ header {
 }
 
 
+@media (max-width: 900px) {
+    .abcon img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .firstab {
+        width: 90%;
+        margin-bottom: -90px;
+    }
+    .firstab p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .abcon2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .abcon2 img {
+        width: 100%;
+        height: 600px;
+        margin-bottom: 50px;
+    }
+    .abcon2 p {
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+        line-height: 30px;
+    }
+    .abcon3 {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 250px;
+    }
+    .abcon3 img {
+        width: 100%;
+        height: 900px;
+        margin-top: -150px;
+        margin-bottom: 50px;
+    }
+    .abcon3 p {
+        text-align: center;
+        line-height: 35px;
+    }
+}
+@media (max-width: 850px) {
+}
+@media (max-width: 780px) {
+    .abcon h1 {
+        font-size: 28px;
+    }
+    .abcon p {
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+        line-height: 30px;
+    }
+    .abcon3 p {
+        width: 80%;
+    }
+}
+@media (max-width: 450px) {
+    .firstab {
+        width: 80%;
+        margin-bottom: -90px;
+    }
+    .firstab h1 {
+        font-size: 22px;
+    }
+    .firstab p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .abcon2 img {
+        width: 100%;
+        height: 400px;
+    }
+    .abcon2 p {
+        font-size: 18px;
+        width: 60%;
+        text-align: center;
+        line-height: 30px;
+    }
+    .abcon3 img {
+        width: 100%;
+        height: 400px;
+    }
+    .abcon3 p {
+        text-align: center;
+        line-height: 35px;
+        width: 60%;
+        font-size: 19px;
+    }
+}
+@media (max-width: 430px) {
+    .firstab {
+        width: 90%;
+        margin-bottom: -190px;
+    }
+    .firstab h1 {
+        font-size: 18px;
+    }
+    .firstab p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 5px;
+        line-height: 25px;
+    }
+    .abcon2 img {
+        width: 100%;
+        height: 400px;
+    }
+    .abcon2 h1 {
+        font-size: 18px;
+    }
+    .abcon2 p {
+        font-size: 15px;
+        width: 45%;
+        text-align: center;
+        line-height: 25px;
+    }
+    .abcon3 img {
+        width: 100%;
+        height: 400px;
+    }
+    .abcon3 h1 {
+        font-size: 18px;
+    }
+    .abcon3 p {
+        text-align: center;
+        line-height: 25px;
+        width: 45%;
+        font-size: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .firstab {
+        width: 90%;
+        margin-bottom: -190px;
+    }
+    .firstab h1 {
+        font-size: 18px;
+    }
+    .firstab p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 5px;
+        line-height: 25px;
+    }
+    .abcon2 img {
+        width: 100%;
+        height: 400px;
+    }
+    .abcon2 h1 {
+        font-size: 18px;
+    }
+    .abcon2 p {
+        font-size: 15px;
+        width: 45%;
+        text-align: center;
+        line-height: 25px;
+    }
+    .abcon3 img {
+        width: 100%;
+        height: 400px;
+    }
+    .abcon3 h1 {
+        font-size: 18px;
+    }
+    .abcon3 p {
+        text-align: center;
+        line-height: 25px;
+        width: 45%;
+        font-size: 15px;
+    }
+}
+@media (max-width: 360px) {
+    .firstab p,
+    .abcon2 p,
+    .abcon3 p {
+        font-size:13px;
+    }
+}
+@media (max-width: 325px) {
+    .firstab h1, 
+    .abcon2 h1,
+    .abcon3 h1 {
+        font-size: 15px;
+    }
+    .firstab {
+        width: 95%;
+    }
+    .firstab p {
+        line-height: 22px;
+    }
+    .abcon2 p,
+    .abcon3 p {
+        width: 36%;
+    }
+}
+
+
+
 
 
 
@@ -1873,6 +2128,19 @@ header {
 }
 
 
+@media (max-width: 850px) {
+}
+@media (max-width: 820px) {
+}
+@media (max-width: 450px) {
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 360px) {
+}
+@media (max-width: 325px) {
+}
+
 
 
 
@@ -1930,4 +2198,18 @@ header {
     width: 600px;
     margin-bottom: 30px;
     font-weight: 100;
+}
+
+
+@media (max-width: 850px) {
+}
+@media (max-width: 820px) {
+}
+@media (max-width: 450px) {
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 360px) {
+}
+@media (max-width: 325px) {
 }
