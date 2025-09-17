@@ -1053,13 +1053,13 @@ header {
         margin-left: 25px;
     }
     .story h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .story h2 {
-        font-size: 17px;
+        font-size: 12px;
     }
     .story p {
-        font-size: 12px;
+        font-size: 9px;
         line-height: 17px;
     }
     .story a {
