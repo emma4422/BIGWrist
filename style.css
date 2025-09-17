@@ -59,6 +59,7 @@ header {
     text-decoration: none;
 }
 .headerleft h1 {
+    width: 200px;
     font-weight: 600;
     text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -308,6 +309,12 @@ header {
     }
 }
 @media (max-width: 450px) {
+    header {
+        width: 100%;
+    }
+    .navlist {
+        width: 100%;
+    }
     .headerleft h1{
         font-size: 19px;
     }
@@ -860,7 +867,7 @@ header {
  }
  @media (max-width: 450px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden
     }
     .introtext h1 {
         font-size: 30px;
@@ -884,11 +891,20 @@ header {
         }
         
     }
+    .vidcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .video1 {
         width: 80%;
+        margin-right: 0px;
+    }
+    .video1text {
+        width: 350px;
     }
     .video1text h2 {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 10px;
     }
     .video1text p {
@@ -947,6 +963,10 @@ header {
         justify-content: center;
         align-items: center;
     }
+    .story {
+        width: 200px;
+        margin-right: 80px;
+    }
     .storyimg {
         max-width: 100%;
         margin-bottom: 50px;
@@ -962,7 +982,8 @@ header {
         max-width: 300px;
     }
     .readmore {
-        margin-left: 155px;
+        margin-left: px;
+        width: 200px;
     }
     .intouch {
         font-size: 19px;
@@ -977,6 +998,9 @@ header {
     }
 }
  @media (max-width: 400px) {
+     main {
+        overflow-x: hidden;
+    }
     .introtext h1 {
         font-size: 25px;
         margin-left: 10px;
@@ -988,11 +1012,14 @@ header {
         font-size: 22px;
     }
     .video1 {
-        width: 100%;
+        width: 80%;
+        padding-left: 50px;
+        margin-right: 0px
     }
     .vidcon {
         display: block;
         justify-content: baseline;
+        margin-left: 10px;
     }
     .video1text h2 {
         font-size: 17px;
@@ -1006,6 +1033,9 @@ header {
     }
  }
   @media (max-width: 360px) {
+     main {
+        overflow-x: hidden;
+    }
     .video1text h2 {
         font-size: 15px;
         width: 300px;
@@ -1035,6 +1065,9 @@ header {
     }
   }
   @media (max-width: 325px) {
+     main {
+        overflow-x: hidden;
+    }
     .introtext h1 {
         font-size: 23px;
     }
