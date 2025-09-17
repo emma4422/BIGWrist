@@ -1062,6 +1062,10 @@ header {
         font-size: 12px;
         line-height: 17px;
     }
+    .story a {
+        font-size: 13px;
+        text-decoration: none;
+    }
     .readmore div {
         width: 100px;
         font-size: smaller;
