@@ -622,6 +622,7 @@ header {
     justify-content: center;
     padding: 10px;
     text-wrap: nowrap;
+    text-decoration: none;
 
 }
 .story a:hover {
@@ -679,6 +680,7 @@ header {
 .inputbtn {
     height: 40px;
     width: 70px;
+    border: none;
     border-radius: 10px;
     font-weight: bold;
     background-color:  gold;
@@ -1105,6 +1107,9 @@ header {
         margin-top: 40px;
         margin-right: 23px;
         object-fit:cover;
+    }
+    .storyimg {
+
     }
     .story h1 {
         font-size: 30px;
