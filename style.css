@@ -611,9 +611,8 @@ header {
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.story div {
+.story a {
     margin-top: 70px;
-    margin-left: 230px;
     background-image: linear-gradient(to bottom right, rgba(255, 188, 2, 0.966), rgb(202, 172, 35));
     color: black;
     font-weight: bold;
@@ -623,15 +622,14 @@ header {
     justify-content: center;
     padding: 10px;
     text-wrap: nowrap;
-    padding-left: 20px;
-    padding-right: 20px;
+
 }
-.story div:hover {
+.story a:hover {
     cursor: pointer;
     background-image: linear-gradient(to bottom right, green, rgb(9, 65, 9));
     color: whitesmoke;
 }
-.story div:active {
+.story a:active {
     opacity: 0.5;
 }
 .picture {
