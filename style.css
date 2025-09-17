@@ -1112,7 +1112,7 @@ header {
         overflow-x: hidden;
     }
     .introtext h1 {
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 29px;
     }
     .introtext h2 {
@@ -2038,7 +2038,7 @@ header {
     .firstab h1, 
     .abcon2 h1,
     .abcon3 h1 {
-        font-size: 13px;
+        font-size: 10px;
     }
     .firstab {
         width: 95%;
